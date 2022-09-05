@@ -1,0 +1,69 @@
+@font-face{font-family:ff2;src:url('data:application/font-woff;base64,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')format("woff");}.ff2{font-family:ff2;line-height:1.937000;font-style:normal;font-weight:normal;visibility:visible; font-size: 22px;
+    text-align: center; margin-top: 50px;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    src: url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+}
+
+* {
+    font-family: Roboto;
+    color: black;
+}
+
+.box {
+    border: 5px solid rgb(125, 200, 230);
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    padding: 15px;
+    margin: 40px 40px 40px 40px;
+    width: 500px;
+    height: 740px;
+}
+
+.h1 {
+    font-family: ff2;
+    text-align: center;
+}
+
+.titulo {
+    font-family: Roboto;
+    font-weight: bold;
+    text-align: center;
+}
+
+.l1 {
+    font-family: Roboto;
+    text-align: right;
+}
+
+.l2 {
+    margin: 0;
+}
+
+.lData {
+    margin-top: 40px;
+}
+
+.lEspaco {
+    margin-top: 60px;
+    margin-bottom: 0;
+    text-align: center;
+}
+.lAssinatura {
+    margin: 0;
+    text-align: center;
+    font-weight: bold;
+}
+
+.lMedico {
+    margin-top: 40px;
+    margin-bottom: 0;
+    text-align: center;
+}
+.lCrm {
+    margin: 0;
+    text-align: center;
+}

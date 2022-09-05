@@ -1,0 +1,117 @@
+
+<!DOCTYPE html>
+<!-- Created by pdf2htmlEX (https://github.com/pdf2htmlEX/pdf2htmlEX) -->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<header>
+    <meta charset="utf-8"/>
+
+    <style>
+        @font-face {
+            font-family: Amarillo;
+            font-style: normal;
+            src: url('pdf-resource/css');
+        }
+
+        @font-face {
+            font-family: 'Roboto';
+            font-style: normal;
+            src: url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+        }
+
+        * {
+            font-family: Roboto;
+            color: black;
+        }
+
+        .texto{
+            align-content: center;
+            align-items: center;
+        }
+
+        .box {
+            border: 5px solid rgb(125, 200, 230);
+            border-radius: 10px;
+            background-color: rgb(255, 255, 255);
+            padding: 15px;
+            margin: 40px 40px 40px 40px;
+            width: 100%;
+            height: 740px;
+        }
+
+        .h1 {
+            font-family: Brush Script MT;
+            text-align: center;
+        }
+
+        .titulo {
+            font-family: Roboto;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        .l1 {
+            font-family: Roboto;
+            text-align: right;
+        }
+
+        .l2 {
+            margin: 0;
+        }
+
+        .lData {
+            margin-top: 40px;
+        }
+
+        .lEspaco {
+            margin-top: 60px;
+            margin-bottom: 0;
+            text-align: center;
+        }
+        .lAssinatura {
+            margin: 0;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        .lMedico {
+            margin-top: 40px;
+            margin-bottom: 0;
+            text-align: center;
+        }
+        .lCrm {
+            margin: 0;
+            text-align: center;
+        }
+
+    </style>
+
+</header>
+
+<body>
+<div id="pageContainer" #pageContainer lang="pt-BR">
+
+    <div class="box">
+
+        <h1 class="float-center h1" lang="pt-BR">Clínica Médica</h1>
+        <h2 class="titulo">ATESTADO</h2>
+
+        <div class="texto">
+            <p class="l1">Atesto para os devidos fins, que o(a)</p>
+            <p class="l2">Sr(a): $nome_paciente</p>
+            <p class="l2 l3">Portador do CPF: $cpf_paciente</p>
+            <p class="l2 l4">esteve em consulta médica na data de $dt_consulta . Necessitando o</p>
+            <p class="l2 l5">afastamento de suas atividades durante o dia de hoje.</p>
+        </div>
+
+        <p class="lData">Santa Maria, $dt_atual</p>
+        <p class="lEspaco">_______________________________________</p>
+        <p class="lAssinatura">Assinatura/Carimbo</p>
+        <p class="lMedico">Dr(a) $nome_medico</p>
+        <p class="lCrm">Número CRM: $num_crm</p>
+
+    </div>
+
+</div>
+</body>
+
+</html>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JpaBuddyIdeaProjectConfig">
+    <option name="defaultUnitInitialized" value="true" />
+    <option name="reverseEngineeringLastDbConnectionId" value="4a1186c9-4286-4e43-a3c0-579eed46d76e" />
+    <option name="reLastEntityCreationPackage" value="src/main/java/br/ufsm/csi/clinica/model" />
+    <option name="newEntityIdStrategy" />
+  </component>
+</project>
